@@ -1,0 +1,35 @@
+.header {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header__quote {
+    font-family: 'Caveat', cursive;
+    margin-top: 40px;
+    
+    background-color: #eddebd;
+    text-shadow: 1px 2px 5px #2e0e01e5;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+.header__author {
+    font-family: 'Caveat', cursive;
+    
+    
+    background-color: #eddebd;
+    text-shadow: 1px 2px 5px #2e0e01e5;
+    font-size: 26px;
+    line-height: 1.5;
+    text-align: right;
+}
+
+.header__image {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 40%/50%;
+    box-shadow: 1px 2px 5px #2e0e01e5;
+}

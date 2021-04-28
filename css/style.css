@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #eddebd;
+    font-family: 'Spartan', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upiór w Operze</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Spartan:wght@300;600&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <nav class="navigation">
+        <ul class="navigation__menu">
+            <li class="navigation__item"><a class="navigation__link" href="#Książka">Książka</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Film">Film</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Musical">Musical</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="header__quote">
+            <p>„Upiór z opery istniał naprawdę. <br> Od pierwszych chwil, kiedy zacząłem przeglądać dokumenty Akademii
+                Muzycznej, uderzyła mnie nadzwyczajna zbieżność między zjawiskami łączonymi zazwyczaj z duchem, a jednym
+                z najbardziej tajemniczych i fantastycznych dramatów, jakie kiedykolwiek miały poruszać Paryż.”</p>
+        </div>
+        <div class="header__author">
+            <p>- Gaston Leroux</p>
+        </div>
+        <img class="header__image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6orHkm9O99AGLBAzCCm5vgVh8acroimwZZh8Mu2iP6ugZlXMzLvCTy-FGr5cpQe9jbxA&usqp=CAU"
+            alt="Portret Gaston Leroux">
+    </header>
+    <main>
+        <section class="section" id="Książka">
+            <h2>Książka</h2>
+            <h3>Czyli jak to się zaczęło</h3>
+            <div>
+                <p class="section__paragraph">Upiór w operze (francuski: <i>Le Fantôme de l'Opéra</i>) to powieść
+                    francuskiego pisarza Gastona
+                    Leroux. Po raz pierwszy ukazała się jako serializacja w <i>Le Gaulois</i> od 23 września 1909 do 8
+                    stycznia 1910. Została opublikowana w tomie pod koniec marca 1910 roku przez Pierre'a Lafitte'a.
+                    <br>Powieść jest częściowo inspirowana wydarzeniami historycznymi, które miały miejsce w Operze
+                    Paryskiej w XIX wieku oraz apokryficzną opowieścią o wykorzystaniu szkieletu byłego ucznia baletu w
+                    przedstawieniu <i>Der Freischütz Carla Marii von Webera</i> z 1841 roku.
+                </p>
+            </div>
+
+            <button class="showContentButton js-showContentButton"><span class="js-buttonText">Zobacz opis
+                    książki</span></button>
+            <p class="paragraphContent paragraphContent--hidden js-paragraphContent">Jest to historia Eryka,
+                zdeformowanego fizycznie genialnego kompozytora,
+                żyjącego w piwnicach Opery Paryskiej, którego łączy dziwny i tajemniczy związek z młodą solistką opery,
+                Christine.</p>
+        </section>
+
+        <section class="section" id="Film">
+            <h2>Film</h2>
+            <p class="section__paragraph">Powstało wiele dzieł literackich i innych dramatycznych opartych na powieści
+                Leroux, od musicali
+                scenicznych po filmy i książki dla dzieci.
+                <br><strong>Pierwsza adaptacja filmowa, niemieckiej produkcji zatytułowana <i>Das Gespenst im
+                        Opernhaus</i>, jest teraz filmem zaginionym.</strong> Został nakręcony w 1916 roku i
+                wyreżyserował Ernest Matray. Z tego powodu, w wielu źródłach jako pierwszą ekranizację powieści
+                <b>uznaje się</b> produkcję amerykańską z 1925 roku i ta właśnie znajduje się w spisie poniżej jako
+                pierwsza.
+            </p>
+
+            <div class="table__container">
+                <table class="table">
+                    <caption class="table__caption"><b>Spis filmów inspirowanych książką Gastona Leroux</b></caption>
+                    <tr>
+                        <th class="table__cell" scope="col"> TYTUŁ</th>
+                        <th class="table__cell" scope="col"> REŻYSER</th>
+                        <th class="table__cell" scope="col"> KRAJ</th>
+                        <th class="table__cell" scope="col"> ROK</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell" scope="row">The Phantom of the Opera</th>
+                        <td class="table__cell">Rupert Julian</td>
+                        <td class="table__cell">USA</td>
+                        <td class="table__cell">1925</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell" scope="row">Phantom of the Opera</th>
+                        <td class="table__cell">Arthur Lubin</td>
+                        <td class="table__cell">USA</td>
+                        <td class="table__cell">1943</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell" scope="row">The Phantom of the Opera</th>
+                        <td class="table__cell">Terence Fisher</td>
+                        <td class="table__cell">Wielka Brytania</td>
+                        <td class="table__cell">1963</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell" scope="row">Phantom of the Paradise</th>
+                        <td class="table__cell">Brian De Palma</td>
+                        <td class="table__cell">USA</td>
+                        <td class="table__cell">1974</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell" scope="row">Il Fantasma dell'Opera</th>
+                        <td class="table__cell">Dario Argento</td>
+                        <td class="table__cell">Węgry,Włochy</td>
+                        <td class="table__cell">1998</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell" scope="row">The Phantom of The Opera</th>
+                        <td class="table__cell">Joel Schumacher</td>
+                        <td class="table__cell">USA, Wielka Brytania</td>
+                        <td class="table__cell">2004</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="section" id="Musical">
+            <h2>Musical</h2>
+            <p class="section__paragraph">Powieść Leroux była czymś więcej niż tylko tajemnicą i zawierała romanse i
+                inne gatunki, które
+                spodobałyby się większej liczbie odbiorców. W przeciwieństwie do filmowych adaptacji, które skupiały się
+                głównie na wydobyciu z tej historii grozy i tragedii nieszczęśliwej miłości, <b>Andrew Lloyd Webber</b>
+                wykorzystał w musicalu relacje z powieści, a także opisy rzeczywistego zdarzenia upadku żyrandola.
+                <br>Kiedy Lloyd Webber stworzył musical, zaczęły się spierać co do tego, czy został
+                <i>„zainspirowany”</i>, czy <i>„oparty na”</i> książce Gastona Leroux. Bill O'Connell, asystent
+                producentów filmowych w Nowym Jorku, twierdził, że nazwisko oryginalnego autora zostało dołączone do
+                książki, że musical jest <i>„oparty na”</i>, a nie <i>„inspirowany”</i>, ponieważ postrzegał to ostatnie
+                jako minimalizację związku Gastona Leroux z historią.
+            </p>
+            <p>Musical został on po raz pierwszy wyprodukowany w w 1986 roku i nadal pozostaje popularny, nadal działa
+                na Broadwayu i West Endzie i daje początek wielu produkcjom koncertowym. Musical otrzymał ponad
+                pięćdziesiąt nagród i przez wielu uważany jest za najpopularniejszy musical na Broadway’u.
+                <br>Na podstawie musicalu w 2004 roku został nakręcony film z muzyką Webbera, reżyserii Joel’a
+                Schumacher’a, a w 2012 roku z okazji 25lecia powstania musicalu w Royal Albert Hall wystawione zostaje
+                przedstawienie, które do dziś jest uznawane za jedno z najlepszych.
+            </p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Copyright © 2021 Monika Frączek</p>
+    </footer>
+
+</body>
+
+</html>

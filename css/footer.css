@@ -1,0 +1,13 @@
+.footer {
+    padding: 5px;
+    background-color: #2e0e01c7;
+    max-width: 100%;
+}
+
+.footer__text {
+    font-family: 'Caveat', cursive;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
